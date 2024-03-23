@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+    <title>Saving Private Ryan</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #272c2a; /* Cor verde militar */
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; /* Para alinhar os elementos verticalmente */
+        }
+        .text {
+            text-align: center;
+            color: #FFF; /* Cor do texto */
+            margin-bottom: 20px; /* Espaçamento inferior para separar o texto da imagem */
+            margin-top: 20px;
+        }
+        #img-div {
+            width: 55%; /* Largura da div de imagem */
+        }
+        #image {
+            width: 100%; /* Largura da imagem dentro da div */
+            height: auto;
+        }
+        a {
+            color: #FFF; /* Cor do link (branco) */
+            text-decoration: underline; /* Remove sublinhado padrão */
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="text">
+        <h1>O Resgate Do Soldado Ryan</h1>
+        <p>Um filme épico de drama da Segunda Guerra Mundial</p>
+    </div>
+    <div id="img-div">
+        <img id="image" src="https://image.tmdb.org/t/p/original/hjQp148VjWF4KjzhsD90OCMr11h.jpg" alt="Imagem do Filme">
+    </div>
+    <div class="text">
+        <a href="{% url 'sobre' %}">Saiba mais</a>
+    </div>
+        
+</body>
+</html>
