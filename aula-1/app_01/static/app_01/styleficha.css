@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #272c2a; /* Cor verde militar */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column; 
+}
+.text {
+    text-align: left;
+    color: #FFF; /* Cor do texto */
+    
+}
+.left-align {
+    text-align: left; /* Alinhar texto à esquerda */
+    
+}
+  .center, .center a {
+    
+    color: #FFF; 
+}
+h1, h2, h3, h4, p {
+    color: #FFF;
+}
+p {
+    line-height: 1.6;
+}
+.bold {
+    font-weight: bold;
+}
+.elenco_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #FFF;
+}
+.elenco_table th, .elenco_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.navbar {
+    background-color: black; /* Cor de fundo do navbar */
+    width: 100%; /* Largura do navbar para cobrir toda a tela */
+    height: 60px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #FFF; /* Cor do texto dos links do navbar */
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-right: 20px; /* Espaçamento entre os itens do navbar */
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+}
